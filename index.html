@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pixervive</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="loading-screen">Loading Pixervive...</div>
+<div id="game-root" class="hidden">
+<canvas id="game-canvas"></canvas>
+<div id="hud">
+<div id="health-bar">❤ 100</div>
+<div id="hunger-bar">🍗 100</div>
+<div id="thirst-bar">💧 100</div>
+</div>
+<div id="panel" class="hidden">
+<div id="inventory-grid"></div>
+<div id="crafting-list"></div>
+<button id="close-panel">Close</button>
+</div>
+<button id="open-panel">Inventory / Craft</button>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
