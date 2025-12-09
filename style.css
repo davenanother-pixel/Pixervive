@@ -1,0 +1,5 @@
+body, html { margin:0; padding:0; height:100%; font-family: monospace; background:#071021; color:#dff; }
+#game-canvas { image-rendering: pixelated; border:2px solid #0b1624; display:block; margin:auto; background:#6fb27b; }
+#hud { position:absolute; top:10px; left:10px; }
+#panel { position:fixed; inset:0; background:rgba(0,0,0,0.5); display:none; }
+.hidden { display:none; }
